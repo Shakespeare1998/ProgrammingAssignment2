@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## Creates a list of functions that are applied onto the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv_mat<-NULL
@@ -22,6 +23,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## Checks if the iverse of the matrix exists, and computes the inverse if it doesn't.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
